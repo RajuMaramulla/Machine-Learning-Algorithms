@@ -24,7 +24,7 @@ split_index = data.shape[0] - int(data.shape[0] * test_ratio)
 train_data = np.array(data.x[0:split_index]).reshape(split_index, 1)
 train_labels = np.array(data.y[0:split_index]).reshape(split_index, 1)
 
-test_data = np.array(data.y[split_index:]).reshape(data.shape[0] - split_index, 1)
+test_data = np.array(data.x[split_index:]).reshape(data.shape[0] - split_index, 1)
 test_labels = np.array(data.y[split_index:]).reshape(data.shape[0] - split_index, 1)
 
 print("TrainData Dimensions: X: {} Y: {} \nTestData Dimensions: X: {} Y: {} \n"

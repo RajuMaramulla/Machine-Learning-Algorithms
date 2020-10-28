@@ -6,6 +6,7 @@ Machine Learning Algorithms implementations in Python(Datasets from Kaggle).
           
           Regression:                                                  
                1.1 Linear Regression
+          
           Classification:                                                        
                1.2 Logistic Regression                                                  
                1.3 Decision Tree                                             
